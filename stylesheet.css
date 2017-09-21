@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	height: 100vh;
+	background: url("https://images.unsplash.com/photo-1485395578879-6ba080c9cdba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=feab5fcf52221f5687830ac43f9559dd");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#frosted {
+	width: 400px;
+	height: 600px;
+	background: inherit;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -250px;
+	border-radius: 8px;
+	font-size: large;
+	color: #331100;
+}
+
+#frosted:before {
+	width: 450px;
+	height: 650px;
+	content: "";
+	background: inherit;
+	position: absolute;
+	left: -50px;
+	right: 0;
+	top: -25px;
+	bottom: 0;
+	box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.3);
+	filter: blur(10px);
+}
+
+#before {
+	position: absolute;
+	padding: 20%;
+	font-family: 'News Cycle', sans-serif;
+}
+
+#after {
+	position: absolute;
+	padding: 20px;
+	display: none;
+font-family: 'News Cycle', sans-serif;
+}
+
+#randomQuote {
+	padding-left : 18px;
+	padding-right : 18px;
+	font-size : medium;
+}
+
+#personalMessage {
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+#credit {
+position: absolute;
+bottom: 0;
+
+}
+
+#signature {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+form {
+	padding-left: 20px;
+}
+button {
+	margin-left: 70%;
+	height: 35px;
+	width: 100px;
+	font-size: 75%;
+}
+
